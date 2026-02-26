@@ -1,0 +1,15 @@
+name = "Impact"
+description = "A bold theme designed to drive conversions"
+author = "Shopify"
+version = "1.0.0"
+
+[settings]
+label = "Impact"
+
+[templates]
+product = "product.custom"
+collection = "collection.custom"
+
+[assets]
+styles = ["style.css"]
+scripts = ["theme.js"]
