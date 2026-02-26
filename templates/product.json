@@ -1,0 +1,26 @@
+{
+  "name": "Product Page",
+  "description": "This is the product page template for Shopify Impact Theme.",
+  "sections": {
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo": "{{ settings.logo }}",
+        "title": "{{ product.title }}"
+      }
+    },
+    "product-information": {
+      "type": "product-information",
+      "settings": {
+        "description": "{{ product.description }}",
+        "price": "{{ product.price | money }}"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "social_links": "{{ settings.social_links }}"
+      }
+    }
+  }
+}
