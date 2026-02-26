@@ -1,0 +1,3 @@
+{\n  \"name\": \"Collection Page\",\n  \"settings\": {\n    \"header\": {\n      \"type\": \"header\",\n      \"settings\": {\n        \"title\": \"Collection Title\"
+      }\n    },\n    \"products\": {\n      \"type\": \"product_list\",\n      \"settings\": {\n        \"collection\": \"all\"
+      }\n    }\n  }\n}
